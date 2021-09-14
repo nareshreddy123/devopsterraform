@@ -18,8 +18,8 @@ resource "aws_security_group" "allow_tls" {
   description = "Allow TLS inbound traffic"
 }
 
-  ingress =
-    {
+  ingress = {
+
       description      = "TLS from VPC"
       from_port        = 22
       to_port          = 22
