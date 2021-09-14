@@ -6,3 +6,10 @@ resource "aws_instance" "myinstance" {
     Name = "HelloWorld"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+
+}
+
+
