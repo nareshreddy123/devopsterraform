@@ -1,4 +1,4 @@
-bucket          = "terrraform-batch5"
+bucket          = "terrraform-devops"
 key             = "vpc/dev/terrafrom.tfstate"
 region          = "us-east-1"
 dynamodb_table  = "terraform"
