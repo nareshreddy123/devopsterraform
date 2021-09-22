@@ -1,5 +1,5 @@
 help:
-	@echo
+	echo "hi"
 
 dev:
 	@terraform init -backend-config=backend/dev.tfvars
