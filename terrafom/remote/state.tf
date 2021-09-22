@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terrraform-devops"
+    bucket = "terrrform-devops"
     key    = "sample/terrafrom.tfstate"
     region = "us-east-1"
     dynamodb_table = "terraform"
