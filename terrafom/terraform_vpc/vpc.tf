@@ -20,8 +20,7 @@ resource "aws_subnet" "public_sunebts" {
   }
 }
 
-
-esource "aws_subnet" "private_subnets" {
+ resource"aws_subnet" "private_subnets" {
   count                       = length(var.PRIVATE_SUBNETS)
   cidr_block                  = element(var.PRIVATE_SUBNETS, count.index)
   vpc_id                      = aws_vpc.main.id
